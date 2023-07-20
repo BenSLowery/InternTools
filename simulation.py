@@ -27,7 +27,7 @@ class Simulation():
         log : DataFrame
             Pandas DataFrame with comprehensive logging the events in the sytem
         period_cost : ndarray
-            The period cost of the ststem over the simulation
+            The period cost of the system over the simulation
 
         Methods
         -------
