@@ -99,7 +99,7 @@ class OptimalPolicy():
                 # Go over every ordering decision
                 # We need to make sure the q is not larger than what we have available in our state space
                 max_q = self.max_x-x
-                print(max_q)
+
                 for q in range(max_q):
                     fut_cost = self.gamma*self.calculate_future_costs(x,q,V_t_plus_1)
                     total_cost[q]= im_cost+fut_cost
